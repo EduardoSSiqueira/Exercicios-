@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios HTML CAP 6</title>
+</head>
+<body>
+    <h1>Exercício 6.1 Crie um elemento de áudio com o atributo controls e adicione dois elementos
+        source com diferentes formatos de áudio para que o navegador possa escolher qual usar com
+        base na compatibilidade.</h1>
+
+        <audio controls>
+            <!-- <source src="AUDIO/Luxxid Diamondz - VaporGod ( Instrumental + Looped ).mp3" type="audio/mp3"> -->
+        
+            <source src="AUDIO/Luxxid-Diamondz-VaporGod-_-Instrumental-Looped-_.ogg" type="audio/ogg">
+        
+
+            O navegador não suporta o elemento de áudio.
+        </audio>
+        
+        <hr>
+        <h1>Exercício 6.2 Adicione um elemento de áudio com uma música embutida, dois elementos <source>
+            com diferentes formatos de áudio e um elemento <track> com a letra da música.</h1>
+
+        <audio controls>
+            <!-- <source src="AUDIO/Luxxid Diamondz - VaporGod ( Instrumental + Looped ).mp3" type="audio/mp3"> -->
+            
+            <source src="AUDIO/Luxxid-Diamondz-VaporGod-_-Instrumental-Looped-_.ogg" type="audio/ogg">
+            
+            <!-- <track src="AUDIO/Luxxid Diamondz - VaporGod ( Instrumental + Looped ).mp3" kind="subtitles" srclang="pt" label="Letra da Música"> -->
+    
+           O navegador não suporta o elemento de áudio.
+        </audio>
+        <hr>
+
+        <h1>Exercício 6.3 Crie um elemento de áudio que comece a tocar automaticamente quando a página
+            é carregada e que tenha controles visíveis. Adicione dois elementos <source> com diferentes
+            formatos de áudio. </h1>
+
+            <audio controls autoplay>
+                <source src="AUDIO/Luxxid Diamondz - VaporGod ( Instrumental + Looped ).mp3" type="audio/mp3">
+            
+                <source src="AUDIO/Luxxid-Diamondz-VaporGod-_-Instrumental-Looped-_.ogg" type="audio/ogg">
+            
+                O navegador não suporta o elemento de áudio.
+            </audio>
+
+        <HR>
+
+        <h1>Exercício 6.4 Adicione um elemento de áudio com um atributo loop para que o áudio seja reproduzido continuamente. Adicione 3 elementos source com formatos distintos, tornando o MP3
+        como padrão.</h1>
+
+        <audio controls loop>
+            <source src="AUDIO/Luxxid Diamondz - VaporGod ( Instrumental + Looped ).mp3" type="audio/mp3">
+        
+            <source src="AUDIO/Luxxid-Diamondz-VaporGod-_-Instrumental-Looped-_.ogg" type="audio/ogg">
+        
+            <!-- <source src="AUDIO/Luxxid-Diamondz-VaporGod-_-Instrumental-Looped-_.m4r" type="audio/m4r"> -->
+        
+        O navegador não suporta o elemento de áudio.
+        </audio>
+
+        <HR>
+            
+        <H1>Exercício 6.5 Crie um elemento de áudio com um atributo preload definido como “none” e adicione
+            dois elementos <source> com diferentes formatos de áudio para que o navegador não carregue o
+            áudio previamente.</H1>
+
+        <audio controls preload="none">
+            <source src="AUDIO/Luxxid Diamondz - VaporGod ( Instrumental + Looped ).mp3" type="audio/mp3">
+            
+            <source src="AUDIO/Luxxid-Diamondz-VaporGod-_-Instrumental-Looped-_.ogg" type="audio/ogg">
+            
+            O navegador não suporta o elemento de áudio.
+         </audio>
+
+</body>
+</html>
